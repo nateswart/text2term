@@ -1,0 +1,7 @@
+name = Text2Term
+description = Moves a text field to a taxonomy entry
+package = Core
+version = VERSION
+core = 7.x
+files[] = text2term.module
+files[] = text2term.drush.inc

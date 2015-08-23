@@ -6,6 +6,6 @@ This is a simple drush extension to aid in the conversion of a text field to a t
 
 1. Create a new vocabulary to hold the taxonomy values.
 2. Add a new taxonomy field to the content type with the original text field.
-2. Run `drush t2t <textfield_machinename> <taxonomy_fieldname>`
+2. Run `drush t2t <type> <textfield> <termfield> <vocabulary>`
 4. Validate everything looks good.
 5. Delete the text field (if you want) from your content type.
